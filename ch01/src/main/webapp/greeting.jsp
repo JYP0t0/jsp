@@ -3,11 +3,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>welcome</title>
+<meta charset="UTF-8">
+<title>greeting</title>
 </head>
 <body>
-	<h3>Welcome JSP!</h3>
+	<h3>Greeting JSP!</h3>
 	<a href="./hello.html">hello</a>
 	<a href="./welcome.jsp">welcome</a>
 	<a href="./greeting.jsp">greeting</a>
