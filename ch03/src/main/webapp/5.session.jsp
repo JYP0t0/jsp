@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@page import="sub1.UserVO"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,18 +26,18 @@
 			UserVO user = new UserVO("a101", "김유신", 23);
 			
 			// 세션 저장
-			session.setAttrivute("user", user);
+			session.setAttribute("user", user);
 			
 		}else {
 			// 크롬 브라우저
 			UserVO user = new UserVO("a102", "김춘추", 21);
 			
 			// 세션 저장
-			session.setAttrivute("user", user);
+			session.setAttribute("user", user);
 		}
 		
 		// 세션 조회
-		UserVO uservo = (UserVO) session.getAttribute("user");
+		UserVO userVO = (UserVO) session.getAttribute("user");
 	%>
 	<p>
 		아이디: <%= userVO.getUid() %><br>	
