@@ -11,7 +11,7 @@
 	--%>
 </head>
 <body>
-	<h3>3.useBean 액션태그</h3>
+	<h3>3.useBean 액션태그</h3>      	
 	<form action="./proc/userProc.jsp" method="GET"> 
 		<input type="text" name="uid" placeholder="아이디 입력"/><br>
 		<input type="text" name="name" placeholder="이름 입력"/><br>

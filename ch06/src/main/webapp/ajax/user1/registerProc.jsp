@@ -49,7 +49,7 @@
 		
 		// 4단계 - 결과처리(SELECT일 경우)
 		// 5단계 - 데이터베이스 종료
-		psmt.close();
+		psmt.close();    
 		conn.close();
 		
 	}catch(Exception e){
